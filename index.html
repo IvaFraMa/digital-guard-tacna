@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Guard Tacna | Ciberseguridad MYPE</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .neon-border {
+            box-shadow: 0 0 15px #06b6d4, 0 0 5px #38bdf8;
+        }
+        body {
+            background-color: #030712;
+        }
+        /* Ajuste para que la portada mantenga su proporción original de Facebook */
+        .header-aspect {
+            aspect-ratio: 820 / 312;
+        }
+    </style>
+</head>
+<body class="text-slate-200 font-sans">
+
+    <nav class="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <img src="imagen1.png" alt="Logo" class="w-10 h-10 rounded-full border border-cyan-500 object-cover">
+                <span class="text-xl font-bold tracking-wider text-cyan-400">DIGITAL GUARD <span class="text-white">TACNA</span></span>
+            </div>
+            <div class="hidden md:flex gap-6 text-sm font-medium uppercase tracking-widest">
+                <a href="#" class="hover:text-cyan-400 transition">Inicio</a>
+                <a href="#servicios" class="hover:text-cyan-400 transition">Servicios</a>
+                <a href="#contacto" class="hover:text-cyan-400 transition">Contacto</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="relative w-full max-w-6xl mx-auto overflow-visible mt-4 px-4">
+        <div class="header-aspect w-full overflow-hidden rounded-xl border border-slate-800 bg-slate-900">
+            <img src="imagen2.png" alt="Portada Digital Guard" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-gradient-to-t from-[#030712]/50 to-transparent"></div>
+        </div>
+        
+        <div class="absolute -bottom-12 left-12 md:left-20">
+            <div class="relative">
+                <img src="imagen1.png" alt="Perfil" class="w-32 h-32 md:w-44 md:h-44 rounded-full border-4 border-[#030712] neon-border bg-slate-900 object-cover">
+                <div class="absolute bottom-4 right-2 w-6 h-6 bg-green-500 border-4 border-[#030712] rounded-full"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 mt-20 md:mt-24">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            
+            <section class="lg:col-span-1 space-y-6">
+                <div class="bg-slate-900 p-6 rounded-xl border border-slate-800 shadow-xl">
+                    <h2 class="text-cyan-400 font-bold text-xl mb-4 flex items-center gap-2">
+                        <span>🛡️</span> Información
+                    </h2>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-6">
+                        Protegemos el núcleo digital de tu pequeña empresa en Tacna. Expertos en auditorías básicas, seguridad de red y prevención de estafas digitales.
+                    </p>
+                    <div class="space-y-4 text-sm">
+                        <div class="flex items-start gap-3">
+                            <span class="text-cyan-500 mt-1">📍</span> 
+                            <div>
+                                <p class="font-semibold text-slate-200">Ubicación</p>
+                                <p class="text-slate-400">Av. Bolognesi S/N, Tacna, Perú</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-cyan-500 mt-1">📞</span> 
+                            <div>
+                                <p class="font-semibold text-slate-200">Teléfono</p>
+                                <p class="text-slate-400">+51 952 000 000</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <span class="text-cyan-500 mt-1">🌐</span> 
+                            <div>
+                                <p class="font-semibold text-slate-200">Sitio Web</p>
+                                <a href="#" class="text-cyan-400 hover:underline">digitalguardtacna.io</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="servicios" class="lg:col-span-2 space-y-6">
+                <h2 class="text-2xl font-bold text-white mb-4">Servicios Destacados</h2>
+                
+                <div class="grid md:grid-cols-2 gap-4">
+                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl hover:border-cyan-500/30 transition-all group">
+                        <div class="w-12 h-12 bg-cyan-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-cyan-500/20 transition">
+                            <span class="text-2xl text-cyan-400">🔍</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Auditoría MYPE</h3>
+                        <p class="text-slate-400 text-sm mt-2">Detección de puntos ciegos en la seguridad de tu negocio local.</p>
+                    </div>
+
+                    <div class="bg-slate-900 border border-slate-800 p-6 rounded-xl hover:border-cyan-500/30 transition-all group">
+                        <div class="w-12 h-12 bg-cyan-500/10 rounded-lg flex items-center justify-center mb-4 group-hover:bg-cyan-500/20 transition">
+                            <span class="text-2xl text-cyan-400">🛡️</span>
+                        </div>
+                        <h3 class="text-lg font-bold text-white">Blindaje Wi-Fi</h3>
+                        <p class="text-slate-400 text-sm mt-2">Configuración profesional para evitar accesos no autorizados.</p>
+                    </div>
+                </div>
+
+                <div id="contacto" class="bg-gradient-to-r from-cyan-900/20 to-blue-900/20 border border-cyan-500/30 rounded-xl p-8 text-center">
+                    <h3 class="text-xl font-bold text-white mb-2">¿Listo para asegurar tu negocio?</h3>
+                    <p class="text-slate-400 mb-6 italic">Evaluación inicial gratuita para negocios en el centro de Tacna.</p>
+                    <button class="bg-cyan-600 hover:bg-cyan-500 text-white font-bold py-3 px-12 rounded-lg transition-all shadow-lg shadow-cyan-900/20">
+                        Enviar Mensaje
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="py-12 mt-20 text-center border-t border-slate-900">
+        <p class="text-slate-500 text-sm font-light tracking-widest uppercase">Digital Guard Tacna &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
